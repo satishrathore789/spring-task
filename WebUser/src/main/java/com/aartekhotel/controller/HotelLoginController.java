@@ -19,8 +19,6 @@ public class HotelLoginController {
 	@Autowired
 	LoginService loginService;
 	
-	
-	
 	@RequestMapping(value="/login",method = RequestMethod.GET)
 	public String login(ModelMap map, HttpSession seHttpSession) {
 		//seHttpSession.invalidate();
