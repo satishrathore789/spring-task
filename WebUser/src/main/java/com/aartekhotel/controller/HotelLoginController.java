@@ -16,8 +16,8 @@ import com.loginservices.LoginServices;
 @Controller
 public class HotelLoginController {
 
-	@Autowired
-private LoginServices loginService;
+	//@Autowired
+    //private LoginServices loginService;
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(ModelMap map, HttpSession seHttpSession) {
@@ -28,7 +28,7 @@ private LoginServices loginService;
 		return "login";
 	}
 
-	@RequestMapping(value = "/loginSubmmit", method = RequestMethod.POST)
+/*	@RequestMapping(value = "/loginSubmmit", method = RequestMethod.POST)
 	public String loginSubmmit(@ModelAttribute("Login") Login login, BindingResult result) {
 
 		login=loginService.findByUserNameAndEmailId(login);
@@ -37,5 +37,5 @@ private LoginServices loginService;
         else
 		return "login";
 	}
-
+*/
 }

@@ -15,7 +15,7 @@ import com.loginservices.RegistrationServices;
 @Controller
 public class RegistrationController {
 	
-	
+/*	
 	@Autowired
 private RegistrationServices registrationService; 
 
@@ -40,6 +40,6 @@ private RegistrationServices registrationService;
 		    	   return "does not save";
 		        
 	
-	}
+	}*/
 
 }

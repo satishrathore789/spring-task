@@ -11,6 +11,8 @@ import com.aartek.models.Login;
 
 @Controller
 public class WelcomeController {
+	
+	
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String login(ModelMap map, HttpSession seHttpSession) {
 		// seHttpSession.invalidate();
