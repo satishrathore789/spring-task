@@ -10,5 +10,6 @@
   	<module>SpringService</module>
     <module>WebUser</module>
     <module>adminWeb</module>
+    <module>SpringServicess</module>
   </modules>
 </project>
