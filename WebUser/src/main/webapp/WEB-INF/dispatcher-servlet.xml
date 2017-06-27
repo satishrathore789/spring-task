@@ -8,9 +8,9 @@
      http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
 
 <context:component-scan base-package="com.aartekhotel.controller"></context:component-scan>
-<context:component-scan base-package="com.loginservices"></context:component-scan>
+<!-- <context:component-scan base-package="com.loginservices"></context:component-scan>
 <context:component-scan base-package="com.aartek.repository"></context:component-scan>
-	<bean id="viewResolver"
+ -->	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
 		<property name="contentType" value="text/html;charset=UTF-8" />
 		<property name="viewClass">
