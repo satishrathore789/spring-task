@@ -8,7 +8,7 @@ import com.aartek.models.Login;
 public class RegistrationRepository {
 
 	@Autowired
-	HibernateTemplate hibernateTemplate;
+private 	HibernateTemplate hibernateTemplate;
 
 	public boolean saveRegistration(Login login) {
 

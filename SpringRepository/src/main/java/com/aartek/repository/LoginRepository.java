@@ -10,7 +10,7 @@ import com.aartek.models.Login;
 public class LoginRepository {
 
 	@Autowired
-	HibernateTemplate hibernateTemplate;
+	private HibernateTemplate hibernateTemplate;
 
 	public Login findByUserNameAndEmailIdR(Login login) {
 		return login = (Login) hibernateTemplate.find("from Login L where L.emailId=? and L.passwords=?",

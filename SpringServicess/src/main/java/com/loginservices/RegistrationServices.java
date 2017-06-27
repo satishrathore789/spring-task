@@ -10,7 +10,7 @@ import com.aartek.repository.RegistrationRepository;
 public class RegistrationServices {
 
 	@Autowired
-	RegistrationRepository loginRepository;
+private RegistrationRepository loginRepository;
 	
 	public boolean saveRegistrationform(Login login) {
 		   return loginRepository.saveRegistration(login);

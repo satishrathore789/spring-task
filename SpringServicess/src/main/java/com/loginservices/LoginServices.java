@@ -9,7 +9,7 @@ import com.aartek.repository.LoginRepository;
 public class LoginServices {
  
   @Autowired
-  LoginRepository loginRepository;
+  private LoginRepository loginRepository;
 	
 	public Login findByUserNameAndEmailId(Login login) {
 		// TODO Auto-generated method stub

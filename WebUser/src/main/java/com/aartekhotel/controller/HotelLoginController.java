@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.aartek.models.Login;
-import com.aartek.service.LoginService;
+import com.loginservices.LoginServices;
 
 @Controller
 public class HotelLoginController {
 
 	@Autowired
-	LoginService loginService;
+private LoginServices loginService;
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(ModelMap map, HttpSession seHttpSession) {

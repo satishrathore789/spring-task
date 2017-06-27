@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.aartek.models.Login;
 import com.aartek.repository.RegistrationRepository;
-import com.aartek.service.RegistrationService;
+import com.loginservices.RegistrationServices;
 
 @Controller
 public class RegistrationController {
 	
 	
 	@Autowired
-	RegistrationService registrationService; 
+private RegistrationServices registrationService; 
 
 	@RequestMapping(value = "/Registration", method = RequestMethod.GET)
 	public String registration(ModelMap map) {
