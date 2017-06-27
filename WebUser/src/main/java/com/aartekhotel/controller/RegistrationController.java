@@ -17,7 +17,7 @@ public class RegistrationController {
 	
 	
 	@Autowired
-	RegistrationService registrationService; 
+	//RegistrationService registrationService; 
 
 	@RequestMapping(value = "/Registration", method = RequestMethod.GET)
 	public String registration(ModelMap map) {
@@ -29,7 +29,7 @@ public class RegistrationController {
 	}
 
 	@RequestMapping(value = "/registrationSubmmit", method = RequestMethod.POST)
-	public String RegistrationSubmmit(@ModelAttribute("Registration") Login login, BindingResult result) {
+/*	public String RegistrationSubmmit(@ModelAttribute("Registration") Login login, BindingResult result) {
 		        
 		
 		       if(registrationService.saveRegistrationform(login))
@@ -39,6 +39,7 @@ public class RegistrationController {
 		       else
 		    	   return "does not save";
 		        
-	}
+	
+	}*/
 
 }
