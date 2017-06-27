@@ -15,29 +15,28 @@ import com.aartek.service.LoginService;
 
 @Controller
 public class HotelLoginController {
-	
+
 	@Autowired
 	LoginService loginService;
-	
-	
-	
-	@RequestMapping(value="/login",method = RequestMethod.GET)
+
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(ModelMap map, HttpSession seHttpSession) {
-		//seHttpSession.invalidate();
+		// seHttpSession.invalidate();
 		System.out.println("login  controller");
-		Login login=new Login();
+		Login login = new Login();
 		map.put("Login", login);
 		return "login";
 	}
-	@RequestMapping(value="/loginSubmmit",method = RequestMethod.POST)
-	public String loginSubmmit(@ModelAttribute("Login") Login login,BindingResult result) {
-		
-		     loginService.findByUserNameAndEmailId(login);
-		
-		//seHttpSession.invalidate();
+
+	@RequestMapping(value = "/loginSubmmit", method = RequestMethod.POST)
+	public String loginSubmmit(@ModelAttribute("Login") Login login, BindingResult result) {
+
+		loginService.findByUserNameAndEmailId(login);
+
+		// seHttpSession.invalidate();
 		System.out.println("login  controller");
-		//Login login=new Login();
-		//map.put("Login", login);
+		// Login login=new Login();
+		// map.put("Login", login);
 		return null;
 	}
 	

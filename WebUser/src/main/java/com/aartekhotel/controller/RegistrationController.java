@@ -20,13 +20,14 @@ public class RegistrationController {
 		map.put("Registration", login);
 		return "Registration";
 	}
-	@RequestMapping(value="/loginSubmmit",method = RequestMethod.POST)
-	public String RegistrationSubmmit(@ModelAttribute("Registration") Login login,BindingResult result) {
-		//seHttpSession.invalidate();
+
+	@RequestMapping(value = "/loginSubmmit", method = RequestMethod.POST)
+	public String RegistrationSubmmit(@ModelAttribute("Registration") Login login, BindingResult result) {
+		// seHttpSession.invalidate();
 		System.out.println("login  controller");
-		//Login login=new Login();
-		//map.put("Login", login);
+		// Login login=new Login();
+		// map.put("Login", login);
 		return null;
 	}
-	
+
 }
