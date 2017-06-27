@@ -6,4 +6,19 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>SpringService</artifactId>
+  
+  <dependencies>
+  <dependency>
+  
+     <groupId>com.aartek.co.in</groupId>
+<artifactId>SpringRepository</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+ 
+  
+  
+  </dependency>
+  
+  
+  </dependencies>
+  
 </project>
