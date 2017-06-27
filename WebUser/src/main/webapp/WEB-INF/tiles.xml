@@ -13,6 +13,9 @@
 	<definition name="login" id="login" extends="baseTemplate">
 		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
 	</definition>
+	<definition name="welcome" id="welcome" extends="baseTemplate">
+		<put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
+	</definition>
 	<definition name="Registration" id="Registration" extends="baseTemplate">
 		<put-attribute name="body" value="/WEB-INF/jsp/Registration.jsp" />
 	</definition>
