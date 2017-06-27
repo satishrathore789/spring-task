@@ -6,14 +6,26 @@
 <html>  
 <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
-<title><tiles:insertAttribute name="title" ignore="true" /></title>  
+<title><tiles:insertAttribute name="title" ignore="true" /></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]--> 
 </head>  
 <body>  
         <div><tiles:insertAttribute name="header" /></div>  
-        <%-- <div style="float:left;padding:10px;width:15%;"><tiles:insertAttribute name="manu" /></div>   --%>
-        <div style="float:left;padding:10px;width:80%;border-left:1px solid pink;">  
-        <tiles:insertAttribute name="body" /></div>  
-        <div style="clear:both"><tiles:insertAttribute name="footer" /></div>  
+        <div><tiles:insertAttribute name="body" /></div>  
+        <div><tiles:insertAttribute name="footer" /></div>  
   
 </body>  
 </html>  
