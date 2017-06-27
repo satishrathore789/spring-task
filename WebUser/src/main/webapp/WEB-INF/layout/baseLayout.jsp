@@ -10,7 +10,7 @@
 </head>  
 <body>  
         <div><tiles:insertAttribute name="header" /></div>  
-        <div style="float:left;padding:10px;width:15%;"><tiles:insertAttribute name="manu" /></div>  
+        <%-- <div style="float:left;padding:10px;width:15%;"><tiles:insertAttribute name="manu" /></div>   --%>
         <div style="float:left;padding:10px;width:80%;border-left:1px solid pink;">  
         <tiles:insertAttribute name="body" /></div>  
         <div style="clear:both"><tiles:insertAttribute name="footer" /></div>  
