@@ -9,12 +9,11 @@ public class RegistrationRepository {
 
 	@Autowired
 	HibernateTemplate hibernateTemplate;
-	
-	
+
 	public boolean saveRegistration(Login login) {
-		   
+
 		return (Boolean) hibernateTemplate.save(login);
-		
+
 	}
 
 }

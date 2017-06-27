@@ -11,8 +11,10 @@ public class LoginRepository {
 
 	@Autowired
 	HibernateTemplate hibernateTemplate;
+
 	public Login findByUserNameAndEmailIdR(Login login) {
-		return login=(Login) hibernateTemplate.find("from Login L where L.emailId=? and L.passwords=?",login.getEmailId(),login.getPasswords());
+		return login = (Login) hibernateTemplate.find("from Login L where L.emailId=? and L.passwords=?",
+				login.getEmailId(), login.getPasswords());
 
 	}
 
