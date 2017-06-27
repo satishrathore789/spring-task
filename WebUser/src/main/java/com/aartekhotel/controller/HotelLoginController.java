@@ -39,11 +39,5 @@ public class HotelLoginController {
 		// map.put("Login", login);
 		return null;
 	}
-	
-	
-	
-	
-	
-	
 
 }
