@@ -31,13 +31,11 @@ public class HotelLoginController {
 	@RequestMapping(value = "/loginSubmmit", method = RequestMethod.POST)
 	public String loginSubmmit(@ModelAttribute("Login") Login login, BindingResult result) {
 
-		loginService.findByUserNameAndEmailId(login);
-
-		// seHttpSession.invalidate();
-		System.out.println("login  controller");
-		// Login login=new Login();
-		// map.put("Login", login);
-		return null;
+		login=loginService.findByUserNameAndEmailId(login);
+        if(login!=null)
+        	return "redirect:/dashboard.do";
+        else
+		return "login";
 	}
 
 }
