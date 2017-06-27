@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.aartek.models.Login;
+
 @Repository
 public class LoginRepository {
 
@@ -11,7 +12,7 @@ public class LoginRepository {
 	public Login findByUserNameAndEmailIdR(Login login) {
 		return login;
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
