@@ -51,8 +51,8 @@ img.avatar {
 }
 
 .container {
-    width:100%;
-    padding: 16px;
+    width:80%;
+    padding: 10px;
 }
 
 span.psw {
@@ -131,7 +131,8 @@ span.psw {
 <h2>Modal Login Form</h2>
 
   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
- <div id="id01" class="modal">
+  
+  <div id="id01" class="modal">
   
   <form:form method="POST" class="modal-content animate" action="loginSubmmit.do" modelAttribute="Login" autocomplete="off">
     <div class="imgcontainer">
@@ -150,7 +151,7 @@ span.psw {
     </div>
     <div class="container"  style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+      <span class="psw">Registration <a href="Registration.do">New User</a></span>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form:form>

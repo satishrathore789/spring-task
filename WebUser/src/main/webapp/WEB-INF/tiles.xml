@@ -8,10 +8,9 @@
 		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
 		<put-attribute name="body" value="${body}" />
 		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
-		<put-attribute name="manu" value="/WEB-INF/layout/manu.jsp" />
 </definition>
 <definition name="baseTemplate1" id="baseTemplate1"
-		template="/WEB-INF/layout/baseLayout.jsp">
+		template="/WEB-INF/layout/baselayout1.jsp">
 		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
 		<put-attribute name="body" value="${body}" />
 		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />

@@ -41,7 +41,6 @@ button {
 
 /* Add padding to container elements */
 .container {
-    
     padding: 16px;
 }
 
@@ -58,11 +57,15 @@ button {
        width: 100%;
     }
 }
+.wrap{
+ width: 50%;
+ margin: auto; 
+}
 </style>
 <body>
-
+<div class="wrap">
 	<h2>Registration Form</h2>
-
+  
 	<form:form method="POST" class="modal-content animate" style="border:1px solid #ccc"
 		action="registrationSubmmit.do" 
 		modelAttribute="Registration" autocomplete="off">
@@ -96,6 +99,6 @@ button {
 			</div>
 		</div>
 	</form:form>
-
+</div>
 </body>
 </html>
