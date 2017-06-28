@@ -15,7 +15,7 @@ import com.loginservices.RegistrationServices;
 @Controller
 public class RegistrationController {
 	
-/*	
+	
 	@Autowired
 private RegistrationServices registrationService; 
 
@@ -32,14 +32,14 @@ private RegistrationServices registrationService;
 	public String RegistrationSubmmit(@ModelAttribute("Registration") Login login, BindingResult result) {
 		        
 		
-		       if(registrationService.saveRegistrationform(login))
+		       if(registrationService.saveRegistrationform(login)==1)
 		       {
-		    	   return "save";
+		    	   return "redirect:/login.do";
 		       }
 		       else
-		    	   return "does not save";
+		    	   return "Registration";
 		        
 	
-	}*/
+	}
 
 }
