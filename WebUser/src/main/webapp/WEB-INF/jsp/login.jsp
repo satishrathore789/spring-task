@@ -6,6 +6,7 @@
 <html>
 <style>
 /* Full-width input fields */
+ 
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -50,6 +51,7 @@ img.avatar {
 }
 
 .container {
+    width:100%;
     padding: 16px;
 }
 
@@ -128,16 +130,14 @@ span.psw {
 
 <h2>Modal Login Form</h2>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-<div id="id01" class="modal">
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+ <div id="id01" class="modal">
   
-  <form:form method="POST" class="modal-content animate" action="loginSubmmit.do" modelAttribute="Login">
+  <form:form method="POST" class="modal-content animate" action="loginSubmmit.do" modelAttribute="Login" autocomplete="off">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
     </div>
-
     <div class="container">
       <label><b>Username</b></label>
       <form:input path="emailId" placeholder="Enter Username" />
@@ -148,24 +148,22 @@ span.psw {
       <button type="submit">Login</button>
       <input type="checkbox" checked="checked"> Remember me
     </div>
-
-    <div class="container" style="background-color:#f1f1f1">
+    <div class="container"  style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form:form>
 </div>
-
 <script>
 // Get the modal
-var modal = document.getElementById('id01');
+ var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
-    }
+    } 
 }
 </script>
 

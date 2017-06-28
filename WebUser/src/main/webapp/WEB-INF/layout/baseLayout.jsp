@@ -26,6 +26,6 @@
         <div><tiles:insertAttribute name="header" /></div>  
         <div><tiles:insertAttribute name="body" /></div>  
         <div><tiles:insertAttribute name="footer" /></div>  
-  
+        <div><tiles:insertAttribute name="manu" /></div>
 </body>  
 </html>  

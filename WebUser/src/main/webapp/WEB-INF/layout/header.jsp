@@ -62,10 +62,10 @@
                                 <li><a href="#" title="">SUB MENU 3</a></li>
                             </ul>
                         </li>
-                        <li><a href="page.html" title="">PAGE</a></li>
+                        <li><a href="Registration.do" title="">REGISTRATION</a></li>
                         <li><a href="category.html" title="">CATEGORY</a></li>
                         <li><a href="#" title="">MENU ITEM</a></li>
-                        <li><a href="#" title="">Login</a></li>
+                        <li><a href="login.do" title="">LOGIN</a></li>
                     </ul>                           
                 </div><!-- /.navbar-collapse -->                
 				<!-- END MAIN NAVIGATION -->
