@@ -5,7 +5,6 @@
 <head>
 <style>
 div.container {
-    
     width: 100%;
     border: 1px solid gray;
 }
@@ -14,8 +13,8 @@ header, footer {
     padding: 1em;
     color: white;
     background-color: black;
-    /* clear: left; */
-   /*  text-align: left; */
+    clear: left;
+    text-align: center;
 }
 
 nav {
@@ -46,7 +45,7 @@ article {
 
 <div class="container">
 
-<footer><a  style="text-align: left;" href="//localhost:8080/adminWeb/login.do">Admin Login</a></footer>
+
 <footer>Copyright &copy; aartek.co.in</footer>
 
 </div>

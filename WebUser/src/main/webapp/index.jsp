@@ -1,3 +1,3 @@
 <% 
-response.sendRedirect("welcome.do");
+response.sendRedirect("login.do");
 %>

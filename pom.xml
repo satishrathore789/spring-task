@@ -7,7 +7,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>SpringRepository</module>
-  	<module>SpringService</module>
     <module>WebUser</module>
     <module>adminWeb</module>
     <module>SpringServicess</module>

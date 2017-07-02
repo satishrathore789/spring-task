@@ -129,13 +129,13 @@ span.psw {
 </style>
 <body>
 
-<h2>Modal Login Form</h2>
+<h2>welcome to Admin login</h2>
 
   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
   
   <div id="id01" class="modal">
-
-  <form:form method="POST" class="modal-content animate" action="loginSubmmit.do" modelAttribute="Login" autocomplete="off">
+      
+  <form:form method="POST" class="modal-content animate" action="loginSubmmit.do" modelAttribute="adminLogin" autocomplete="off">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
@@ -156,7 +156,7 @@ span.psw {
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form:form>
-  </div>
+</div>
 <script>
 // Get the modal
  var modal = document.getElementById('id01');

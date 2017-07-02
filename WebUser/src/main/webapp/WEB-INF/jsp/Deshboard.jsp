@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="gray">
+<body bgcolor="green">
 
 <MARQUEE  behavior="alternate" >
 <img width="500" height="300"  src="img/download.jpg"><img width="500" height="300" src="img/images.jpg">

@@ -8,6 +8,12 @@
      http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
 
 
+<context:component-scan base-package="com.adminController" />
+<context:component-scan base-package="com.adminRepo" />
+<context:component-scan base-package="com.adminService" />
+<mvc:annotation-driven></mvc:annotation-driven>
+<context:annotation-config></context:annotation-config>
+
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">

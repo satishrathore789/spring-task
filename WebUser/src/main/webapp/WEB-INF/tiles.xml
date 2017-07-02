@@ -31,5 +31,10 @@
 	<definition name="Deshboard" id="Deshboard" extends="baseTemplate1">
 		<put-attribute name="body" value="/WEB-INF/jsp/Deshboard.jsp" />
 	</definition>
+
+	<definition name="hostels" id="hostels" extends="baseTemplate1">
+		<put-attribute name="body" value="/WEB-INF/jsp/hostels.jsp" />
+	</definition>
+
 	
 </tiles-definitions>

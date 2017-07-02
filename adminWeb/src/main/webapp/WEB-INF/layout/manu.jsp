@@ -28,8 +28,8 @@
 <h1>Menus</h1>
 
 <div class="vertical-menu">
-  <a href="Deshboard.do" class="active" >Home</a>
-  <a href="hostels.do" >all hostels</a>
+  <a href="Deshboard.do" class="active">Home</a>
+  <a href="hostels.do">all hostels</a>
   <a href="hostelsboys.do">Boys Hostels</a>
   <a href="hostelsgirls.do">Girls Hostels</a>
 </div>

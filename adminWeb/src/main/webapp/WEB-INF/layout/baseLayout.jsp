@@ -8,15 +8,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <title><tiles:insertAttribute name="title" ignore="true" /></title>
     </head>
-    <body >
-        <table  width="100%" border="0" cellpadding="2" cellspacing="2" align="center">
+    <body bgcolor="gray" >
+        <table  width="100%" border="0" cellpadding="2" cellspacing="2" align="center" >
             <tr>
-                <td height="100%" colspan="2" bg>
+                <td height="100%" colspan="2" >
                     <tiles:insertAttribute name="header" />
                 </td>
             </tr>
             <tr>
-                <td width="100%" colspan="1">
+                <td width="100%" colspan="1" bgcolor="gray">
                     <tiles:insertAttribute name="body" />
                 </td>
             </tr>
