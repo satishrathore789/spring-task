@@ -37,16 +37,16 @@ public class AdminDeshboard {
 	@RequestMapping(value = "/dataInsert", method = RequestMethod.POST)
 	public String insertData(@ModelAttribute("hostelInfo") HostelInfo hostelInfo,ModelMap modelMap) {
 		
-		
-		List list = adminSave.findHostels();
 		Integer i = adminSave.hostelSeve(hostelInfo);
+		List list11 = adminSave.findHostels();
+		
 		if (i >= 0)
 
 			System.out.println("save data  controller");
 		else
 			System.out.println("not save data");
 
-		modelMap.addAttribute("fatch", list);
+		modelMap.addAttribute("fatch", list11);
 		return "adminBoard";
 	}
 
